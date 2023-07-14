@@ -1,0 +1,12 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "*.ino": "cpp",
+    "gpio_types.h": "c",
+    "ledc.h": "c",
+    "stdio.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM7"
+}
