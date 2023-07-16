@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/data/idf_project/hello_world/build/bootloader/esp-idf/soc/src/esp32/cmake_install.cmake")
-  include("D:/data/idf_project/hello_world/build/bootloader/esp-idf/soc/soc/cmake_install.cmake")
+  include("D:/data/idf_project/esp32_switch/build/bootloader/esp-idf/soc/src/esp32/cmake_install.cmake")
+  include("D:/data/idf_project/esp32_switch/build/bootloader/esp-idf/soc/soc/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-/* * Data converted from D:/data/idf_project/hello_world/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from D:/data/idf_project/esp32_switch/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/hello-world")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/esp32Switch")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/data/idf_project/hello_world/build/esp-idf/soc/soc/esp32/cmake_install.cmake")
+  include("D:/data/idf_project/esp32_switch/build/esp-idf/soc/soc/esp32/cmake_install.cmake")
 
 endif()
 

@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "E:/work/esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "D:/data/idf_project/hello_world/build/bootloader",
-    "config_file":        "D:/data/idf_project/hello_world/sdkconfig",
+    "build_dir":          "D:/data/idf_project/esp32_switch/build/bootloader",
+    "config_file":        "D:/data/idf_project/esp32_switch/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
