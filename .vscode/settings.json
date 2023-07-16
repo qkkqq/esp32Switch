@@ -5,7 +5,11 @@
     "*.ino": "cpp",
     "gpio_types.h": "c",
     "ledc.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "esp_system.h": "c",
+    "task.h": "c",
+    "freertos.h": "c",
+    "servo.h": "c"
   },
   "idf.flashType": "UART",
   "idf.portWin": "COM7"
