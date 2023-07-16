@@ -1,5 +1,0 @@
-menu "MY_COMP"
-    config MY_COMP_ENABLE
-    bool "Enable my_comp"
-    default "y"
-    endmenu
