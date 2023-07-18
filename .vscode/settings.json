@@ -9,8 +9,12 @@
     "esp_system.h": "c",
     "task.h": "c",
     "freertos.h": "c",
-    "servo.h": "c"
+    "servo.h": "c",
+    "chrono": "c",
+    "random": "c",
+    "limits": "c"
   },
   "idf.flashType": "UART",
-  "idf.portWin": "COM7"
+  "idf.portWin": "COM7",
+  "C_Cpp.errorSquiggles": "enabled"
 }

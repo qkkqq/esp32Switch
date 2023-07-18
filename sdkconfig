@@ -1267,12 +1267,6 @@ CONFIG_WPA_MBEDTLS_CRYPTO=y
 # CONFIG_WPA_TESTING_OPTIONS is not set
 # CONFIG_WPA_WPS_STRICT is not set
 # end of Supplicant
-
-#
-# MY_COMP
-#
-CONFIG_MY_COMP_ENABLE=y
-# end of MY_COMP
 # end of Component config
 
 #

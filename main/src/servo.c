@@ -13,12 +13,14 @@ void Servo_Init(char gpioPin)
     ledc_timer_config(&timer_conf);                    //配置定时器
     
     ledc_channel_config_t ledc_conf = {
-        .gpio_num = gpioPin,                                 //GPIO23
+        .gpio_num = 23,                                 //GPIO23
         .speed_mode = LEDC_HIGH_SPEED_MODE,
         .channel = LEDC_CHANNEL_7,                      //通道
         .timer_sel = LEDC_TIMER_1,                      //时钟
     };
     ledc_channel_config(&ledc_conf);                  //配置通道
+    SWITCH_OPEN
+    Senor_Control(0);
 }
 
 /*角度转占空比*/

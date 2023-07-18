@@ -4,6 +4,7 @@
 #
 
 PROJECT_NAME := esp32Switch
+EXTRA_COMPONENT_DIRS += $(PROJCT_PATH)/components
 
 include $(IDF_PATH)/make/project.mk
 
