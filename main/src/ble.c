@@ -335,14 +335,13 @@ static void gatts_profile_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_
             if (heart_rate_handle_table[IDX_CHAR_VAL_SWITCH] == param->write.handle)
             {
                 ESP_LOGI(GATTS_TABLE_TAG, "write:0x%x", param->write.value[0]);
-                if (param->write.value[0] == 0x00)
-                {
-                    SWITCH_CLOSE // 收到数据0x00关灯
-                }
-                else if (param->write.value[0] == 0x01)
-                {
-                    SWITCH_OPEN; // 收到数据0x01开灯
-                }
+                if(0<=param->write.value[0]&&param->write.value[0]<=200)
+                    Senor_Control(param->write.value[0]);
+
+                // if (param->write.value[0] == 0x00)
+                //     SWITCH_CLOSE // 收到数据0x00关灯
+                // else if (param->write.value[0] == 0x01)
+                //     SWITCH_OPEN; // 收到数据0x01开灯
             }
             /* send response when param->write.need_rsp is true*/
             if (param->write.need_rsp)

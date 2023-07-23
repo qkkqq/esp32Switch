@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ino": "cpp",
+			"gpio_types.h": "c",
+			"ledc.h": "c",
+			"stdio.h": "c",
+			"esp_system.h": "c",
+			"task.h": "c",
+			"freertos.h": "c",
+			"servo.h": "c",
+			"chrono": "c",
+			"random": "c",
+			"limits": "c",
+			"optional": "c",
+			"istream": "c",
+			"ostream": "c",
+			"ratio": "c",
+			"system_error": "c",
+			"array": "c",
+			"functional": "c",
+			"tuple": "c",
+			"type_traits": "c",
+			"utility": "c"
+		}
+	}
+}

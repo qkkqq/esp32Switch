@@ -16,5 +16,6 @@
   },
   "idf.flashType": "UART",
   "idf.portWin": "COM7",
-  "C_Cpp.errorSquiggles": "enabled"
+  "C_Cpp.errorSquiggles": "enabled",
+  "cmake.configureOnOpen": false
 }
